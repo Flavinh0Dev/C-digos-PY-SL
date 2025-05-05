@@ -1,0 +1,7 @@
+print("Digite o comprimento do Círculo. (OBS, Envès de usar , use .)")
+Raio=float(input())
+RaioM= Raio *Raio
+print("Digite o valor de PI para essa operação")
+PI=float(input())
+Calculo=PI * RaioM
+print(f"O resultado foi= {Calculo} cm ao quadrado")
