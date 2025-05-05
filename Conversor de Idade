@@ -1,0 +1,53 @@
+def conversor():
+    Mercúrio = float(4.17) 
+    Vênus = float(1.61)
+    Marte = float(0.53) 
+    Júpiter = float(0.084) 
+    Saturno = float(0.034)
+    Urano = float(0.012) 
+    Netuno = float(0.006) 
+
+    print("Comece com sua idade:")
+    Idade = int(input())
+    print("Selecione o dígito do planeta que quer converter")
+    print("Mercúrio-1 " \
+          "Vênus-2 " \
+          "Marte-3 " \
+          "Júpiter-4 " \
+          "Saturno-5 " \
+          "Urano-6 " \
+          "Netuno-7 ")
+    PlanetSEL = int(input())
+    
+    if PlanetSEL == 1:
+        Idade = Idade * Mercúrio
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 2:
+        Idade = Idade * Vênus
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 3:
+        Idade = Idade * Marte
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 4:
+        Idade = Idade * Júpiter
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 5:
+        Idade = Idade * Saturno
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 6:
+        Idade = Idade * Urano
+        print("Você teria,", Idade, "anos")
+    if PlanetSEL == 7:
+        Idade = Idade * Netuno
+        print("Você teria,", Idade, "anos")
+
+conversor()
+print("Gostaria de refazer a conversão? Y/N")
+RefazerESC = input()
+if RefazerESC == "Y":
+    conversor()
+else:
+    print("Programa Terminado.")
+
+
+
